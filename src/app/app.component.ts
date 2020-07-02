@@ -1,4 +1,5 @@
 import { Component, VERSION } from '@angular/core';
+import { KatexOptions } from 'ngx-markdown';
 
 @Component({
   selector: 'my-app',
@@ -17,6 +18,9 @@ export class AppComponent  {
 const language = 'typescript';
 \`\`\`
 
+### Emoji
+I :heart: ngx-markdown
+
 ### Lists
 1. Ordered list
 2. Another bullet point
@@ -25,4 +29,10 @@ const language = 'typescript';
 
 ### Blockquote
 > Blockquote to the max`;
+
+public options: KatexOptions = {
+  displayMode: true,
+  throwOnError: false,
+  errorColor: '#cc0000'
+};
 }
