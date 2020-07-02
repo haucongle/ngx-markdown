@@ -13,7 +13,7 @@
     "@angular/router": "10.0.2",
     "bootstrap": "4.5.0",
     "core-js": "2.6.9",
-    "emoji-toolkit": "^5.5.1",
+    "emoji-toolkit": "5.5.1",
     "jquery": "3.5.1",
     "katex": "0.11.1",
     "ngx-markdown": "10.0.0",
